@@ -1,10 +1,33 @@
 import React from 'react'
+import { FooterContainer } from '../styles/FooterStyled'
 
 const Footer = () => {
   return (
-    <div>
-      <h4>Desenvolvido por joaomatosq</h4>
+  
+    <FooterContainer>
+
+    <div className='contato'>
+      <h3>Contato</h3>
+      <p>Email: joaomatosq@gmail.com</p>
+      <p>Telefone: (11) </p>
     </div>
+
+    <div className='direitos'>
+      <p>&copy;
+        2025 - City Game - Todos os direitos reservados
+      </p>
+    </div>
+
+    <div className='redes-sociais'>
+      <h3>Redes Sociais</h3>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </div>
+    </FooterContainer>
+    
   )
 }
 
