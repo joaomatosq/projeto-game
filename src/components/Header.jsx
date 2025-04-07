@@ -3,11 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <div>
-<<<<<<< HEAD
-      
-=======
-      <h1>NAV</h1>
->>>>>>> dev
+      <h1>Titulo</h1>
     </div>
   )
 }
